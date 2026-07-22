@@ -1,13 +1,6 @@
 import numpy as np
 prices = np.array([
-    120,
-    123,
-    125,
-    122,
-    130,
-    135,
-    132,
-    140
+    120,123,125,122,130,135,132,140
 ])
 change = np.diff(prices)
 
