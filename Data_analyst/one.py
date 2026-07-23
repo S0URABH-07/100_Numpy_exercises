@@ -9,8 +9,8 @@ attrition = data[:,1]
 
 left = attrition == "Yes"
 
-print(np.sum(left))
+print(np.sum("Yes : ",left))
 
-print(np.sum(~left))
+print(np.sum("No : ",~left))
 
-print(np.mean(left) * 100)
+print(np.mean("Mean: ",left) * 100)
