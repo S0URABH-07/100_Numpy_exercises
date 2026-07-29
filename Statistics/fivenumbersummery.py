@@ -12,7 +12,6 @@ print("Q3 : ",Q3)
 IQR = Q3 - Q1
 print("IQR : ",IQR)
 
-# upper fence and lower fence
 UF = Q3 + (1.5*IQR)
 LF = Q1 - (1.5*IQR)
 print("Upper Fence: ",UF)
