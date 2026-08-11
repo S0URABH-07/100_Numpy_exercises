@@ -15,7 +15,7 @@ f_stats ,p_value =f_oneway(class_1,class_2,class_3)
 print(f_stats)
 print(p_value)
 
-# alpha 
+# alpha = significant value
 alpha = 0.05
 if p_value<alpha:
     print("reject the null hypothesis and there is a significant diffrence in atleast one passenger class")
