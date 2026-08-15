@@ -17,6 +17,7 @@ print(p_value)
 
 # alpha = significant value
 alpha = 0.05
+
 if p_value<alpha:
     print("reject the null hypothesis and there is a significant diffrence in atleast one passenger class")
 else:
